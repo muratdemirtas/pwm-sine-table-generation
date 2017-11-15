@@ -29,7 +29,7 @@ int main()
 	double sine_tab = 0.0;
 	double counter = 0.0;
 	long carrier_freq =0; 
-	int sinewave_freq;
+	int sine_wave_freq;
 	int max_timer = 0;
 	int sine_counters =0;
 	FILE *fp;
@@ -50,7 +50,7 @@ int main()
 	printf("Enter the carrier freqency:");
 	scanf("%ld",&carrier_freq);
 	printf("Enter the sinewave frequency:");
-	scanf("%d",&sine_wave_freq)
+	scanf("%d",&sine_wave_freq);
 	
 	step_val = 360/(carrier_freq/(sine_wave_freq*2));
 
